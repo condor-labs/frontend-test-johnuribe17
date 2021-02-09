@@ -1,9 +1,13 @@
+require('regenerator-runtime/runtime');
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import App from './App';
+import './sass/main.scss';
 
-function App() {
-  return <h1>Prueba!</h1>;
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

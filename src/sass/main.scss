@@ -1,0 +1,20 @@
+@use './layout/grid';
+@use './helpers/resets';
+@use './helpers/variables' as var;
+@use './widgets/widget1';
+@use './widgets/widget2';
+@use './components/details';
+
+// div,
+// main,
+// i,
+// p,
+// h1,
+// section {
+//   border: 1px solid red;
+// }
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: var.$primary-light-gray;
+}

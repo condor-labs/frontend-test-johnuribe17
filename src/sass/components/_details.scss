@@ -1,0 +1,25 @@
+@use '../helpers/variables' as var;
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  p {
+    margin: 1rem 0.5rem 1rem 0.25rem;
+  }
+
+  i {
+    margin: 1rem 0.25rem 1rem 0.5rem;
+  }
+}
+
+.circle-temp {
+  color: var.$primary-yellow;
+}
+.circle-humidity {
+  color: var.$primary-pink;
+}
+.circle-wind {
+  color: var.$primary-blue;
+}
