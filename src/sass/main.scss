@@ -2,6 +2,7 @@
 @use './helpers/resets';
 @use './helpers/variables' as var;
 @use './widgets/widget1';
+@use './widgets/widget2';
 @use './components/details';
 
 // div,
@@ -15,4 +16,5 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background: var.$primary-light-gray;
 }

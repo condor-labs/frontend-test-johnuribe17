@@ -6,19 +6,19 @@ function Details({ tempC, humidity, wind }) {
       {tempC && (
         <>
           <i className="fas fa-circle circle-temp"></i>
-          <p>{`${tempC}º C`}</p>
+          <p className="widget-temperature">{`${tempC}º C`}</p>
         </>
       )}
       {humidity && (
         <>
           <i className="fas fa-circle circle-humidity"></i>
-          <p>{`${humidity} %`}</p>
+          <p className="widget-humidity">{`${humidity} %`}</p>
         </>
       )}
       {wind && (
         <>
           <i className="fas fa-circle circle-wind"></i>
-          <p>{`${wind} m/s`}</p>
+          <p className="widget-wind">{`${wind} m/s`}</p>
         </>
       )}
     </div>

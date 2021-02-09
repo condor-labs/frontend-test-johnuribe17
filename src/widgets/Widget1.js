@@ -23,7 +23,7 @@ function Widget1({ venues }) {
           </div>
         </div>
       </div>
-      <p className="widget-temperature widget1-text1">{`${tempC}ºC`}</p>
+      <p className="widget-temperature widget1-text1">{`${tempC}º C`}</p>
       <div>
         <Details humidity={humidity} wind={wind} />
       </div>
