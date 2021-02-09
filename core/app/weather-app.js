@@ -1,3 +1,5 @@
+require('regenerator-runtime/runtime');
+
 const {
   SELECTORS: {
     MAIN_WIDGET,
